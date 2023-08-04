@@ -4,13 +4,11 @@ def my_cool_function():
     
     age_input = int(input('Enter your age ( 0 -100): '))
     
-    
     gender_input = input('Enter gender (Male or Female): ')
     
     fit_level = int(input('Enter fitness level 0 being unfit and 2 being super fit (0, 1, 2): '))
     
     smoking_status = int(input('Are you a smoker, 0 for no, 1 for yes: '))
-    
     
     user = Create_lapse_decrement_table(gender_input,age_input,fit_level, smoking_status)
 
